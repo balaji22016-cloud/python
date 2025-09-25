@@ -1,8 +1,6 @@
 import random
-
 a = random.randint(1, 20) 
 print("Welcome to the game")
-
 for i in range(1, 10):
     b = int(input("Enter Your Guess Value: "))
     if a == b:
